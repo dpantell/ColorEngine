@@ -1,0 +1,267 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="src\Core\Resource\File.h">
+      <Filter>src\Core\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Core\Resource\ImageFile.h">
+      <Filter>src\Core\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Core\Resource\TextFile.h">
+      <Filter>src\Core\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Core\Resource\TextureResourceManager.h">
+      <Filter>src\Core\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Core\Rendering\Buffer.h">
+      <Filter>src\Core\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Core\Rendering\Framebuffer.h">
+      <Filter>src\Core\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Core\Rendering\gl.h">
+      <Filter>src\Core\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Core\Rendering\RenderState.h">
+      <Filter>src\Core\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Core\Model\Material.h">
+      <Filter>src\Core\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Core\Math\Matrix.h">
+      <Filter>src\Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Core\Math\Quaternion.h">
+      <Filter>src\Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Core\Math\Vector2.h">
+      <Filter>src\Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Core\Math\Vector3.h">
+      <Filter>src\Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Core\Math\Vector4.h">
+      <Filter>src\Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Core\Application\Clock.h">
+      <Filter>src\Core\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Core\Application\InputManager.h">
+      <Filter>src\Core\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Camera\Camera.h">
+      <Filter>src\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Camera\CameraController.h">
+      <Filter>src\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Camera\FreeCameraController.h">
+      <Filter>src\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FullScreen.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Math3D.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Transform3D.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FinalPass.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Core\Rendering\ID.h">
+      <Filter>src\Core\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Core\Model\Model.h">
+      <Filter>src\Core\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Core\Model\MeshLoader.h">
+      <Filter>src\Core\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Color.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Core\Rendering\Shading\Pipeline.h">
+      <Filter>src\Core\Rendering\Shading</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Core\Rendering\Shading\Program.h">
+      <Filter>src\Core\Rendering\Shading</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Core\Rendering\Shading\ShaderUniform.h">
+      <Filter>src\Core\Rendering\Shading</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Core\Rendering\Shading\ShaderVariable.h">
+      <Filter>src\Core\Rendering\Shading</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Core\Rendering\Vertex Specification\VertexArray.h">
+      <Filter>src\Core\Rendering\Vertex Specification</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Core\Model\SceneNodeProcessor.h">
+      <Filter>src\Core\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Core\Model\ModelLoader.h">
+      <Filter>src\Core\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Core\Rendering\RenderVariable.h">
+      <Filter>src\Core\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Core\Rendering\Texturing\Sampler.h">
+      <Filter>src\Core\Rendering\Texturing</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Core\Rendering\Texturing\Texture.h">
+      <Filter>src\Core\Rendering\Texturing</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Core\Rendering\Texturing\TextureFormat.h">
+      <Filter>src\Core\Rendering\Texturing</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Core\Rendering\Texturing\TextureUnit.h">
+      <Filter>src\Core\Rendering\Texturing</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Core\Rendering\Vertex Specification\AttributeDesc.h">
+      <Filter>src\Core\Rendering\Vertex Specification</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Core\Rendering\Vertex Specification\BufferDesc.h">
+      <Filter>src\Core\Rendering\Vertex Specification</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Core\Rendering\Primitive.h">
+      <Filter>src\Core\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Rendering\Drawable.h">
+      <Filter>src\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Rendering\Renderable.h">
+      <Filter>src\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Rendering\UniformCommand.h">
+      <Filter>src\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Rendering\VertexFormat.h">
+      <Filter>src\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Rendering\RenderPass\CustomRenderPass.h">
+      <Filter>src\Rendering\RenderPass</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Rendering\RenderPass\DefaultRenderPass.h">
+      <Filter>src\Rendering\RenderPass</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Rendering\RenderPass\RenderPass.h">
+      <Filter>src\Rendering\RenderPass</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Rendering\RenderPass\CustomRenderPassWrapper.h">
+      <Filter>src\Rendering\RenderPass\Wrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Rendering\RenderPass\DefaultRenderPassWrapper.h">
+      <Filter>src\Rendering\RenderPass\Wrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Rendering\RenderPass\RenderPassWrapper.h">
+      <Filter>src\Rendering\RenderPass\Wrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Rendering\RenderPass\ShaderInfo.h">
+      <Filter>src\Rendering\RenderPass\Wrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Rendering\MaterialBinding.h">
+      <Filter>src\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Rendering\UniformCommandBase.h">
+      <Filter>src\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PhongShadingPass.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Core\ECS\Component.h">
+      <Filter>src\Core\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Core\ECS\Entity.h">
+      <Filter>src\Core\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Core\ECS\System.h">
+      <Filter>src\Core\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Core\ECS\ObjectPool.h">
+      <Filter>src\Core\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Core\ECS\TypeMap.h">
+      <Filter>src\Core\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Core\ECS\ComponentManager.h">
+      <Filter>src\Core\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Cube.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Renderer.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\VoxelShader.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GBufferShader.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Core\Math\Quaternion.cpp">
+      <Filter>src\Core\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Core\Application\Clock.cpp">
+      <Filter>src\Core\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Core\Application\InputManager.cpp">
+      <Filter>src\Core\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Camera\FreeCameraController.cpp">
+      <Filter>src\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{704f3603-e844-476d-a074-d12d8bf6b9ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Camera">
+      <UniqueIdentifier>{a1510208-19b2-45b0-a075-8d7ad2dcd1e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Core">
+      <UniqueIdentifier>{7bda3fbf-029b-408c-9be4-5bc1b85e1f7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Core\Math">
+      <UniqueIdentifier>{476c3941-00cc-47ea-a29d-0e369de13dd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Core\Rendering">
+      <UniqueIdentifier>{c20fda70-06ea-4375-9c39-9a10bff83a92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Core\Application">
+      <UniqueIdentifier>{3c1de5d8-8370-48fc-9f53-c400c7cd885c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Core\Model">
+      <UniqueIdentifier>{b365a5a4-f26c-4cba-8bd2-a59b89d6e6b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Core\Resource">
+      <UniqueIdentifier>{4e9fba95-31c0-4fd8-9881-c465883299c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Core\Rendering\Shading">
+      <UniqueIdentifier>{9d35bd13-5910-41d5-bea4-c17ddf3ae11f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Core\Rendering\Vertex Specification">
+      <UniqueIdentifier>{f593e1b8-f6c0-4e2d-a69b-cf5446cb7253}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Rendering">
+      <UniqueIdentifier>{e826b248-4d36-4b8c-a89e-5a363619c26a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Rendering\RenderPass">
+      <UniqueIdentifier>{3eacd692-201a-4f8d-a007-b2592f20fc0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Rendering\RenderPass\Wrapper">
+      <UniqueIdentifier>{63466b51-9c6f-43c3-97eb-f53945131b82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Core\ECS">
+      <UniqueIdentifier>{ce491608-401b-47c8-9690-90885f4c7a65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Core\Rendering\Texturing">
+      <UniqueIdentifier>{71b1f1ab-4087-4b4a-a0db-037bc3818a41}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

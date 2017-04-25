@@ -1,0 +1,4 @@
+﻿  main.cpp
+a:\dylan3d\dylan3d\src\main.cpp(83): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  Dylan3D.vcxproj -> A:\Dylan3D\Debug\Dylan3D.exe
+  Dylan3D.vcxproj -> A:\Dylan3D\Debug\Dylan3D.pdb (Full PDB)

@@ -1,0 +1,10 @@
+#pragma once
+
+#include "GL\glew.h"
+
+enum class FBLocation : GLenum
+{
+	DEPTH = GL_DEPTH_ATTACHMENT,
+	STENCIL = GL_STENCIL_ATTACHMENT,
+	DEPTH_STENCIL = GL_DEPTH_STENCIL_ATTACHMENT,
+};
